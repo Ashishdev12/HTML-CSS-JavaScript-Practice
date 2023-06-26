@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+  <title>DOM</title>
+  <body>
+    <button>Hello</button>
+    <button class="js-button">Ashish</button>
+ 
+  <script>
+
+    console.log(document.querySelector('button').innerHTML); 
+
+    document.querySelector('button')
+      .innerHTML = 'Changed';
+
+    const buttonElement = document.querySelector('.js-button');
+    console.log(buttonElement);
+
+
+
+    /*
+
+    document.title = 'changed';
+    console.log(document.title);
+
+    console.log(document.body);
+    console.log(typeof document.body);
+    
+    console.log(document.body.innerHTML);
+    document.body.innerHTML = '<button>Good Morning!</button>';
+
+    
+    document.body.innerHTML = 'hello';
+    document.title = 'Good Morning!';
+    */
+ 
+  </script>
+   </body>
+
+</html>

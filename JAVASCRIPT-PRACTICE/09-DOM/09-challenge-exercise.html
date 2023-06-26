@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+<title>DOM Projects</title>
+
+<body>
+  <!-- <p>YouTube Subscribe Button</p> -->
+  <!--
+  <button onclick="
+
+  Subscribe();
+ 
+   " class='js-subscribe-button'>
+   Subscribe
+  </button>>
+
+  // second project 
+
+  <p>Amazon Shipping Calculator.</p>
+  <P>Orders Under $40 = +$10 Shipping.</P>
+  <p>Orders over $40 = Free Shipping.</p>
+
+  <input placeholder="Cost of order" class="js-cost-input" onkeydown=" 
+      handleCostKeyDown(event);
+
+
+  "> <button onclick="
+  CalculateTotal();
+  
+  ">Calculate</button>
+  <p class="js-total-cost"></p>
+
+-->
+
+
+  <!-- <script>
+
+    // This code is for Enter to get details in code.
+
+    function handleCostKeyDown (event) {
+        if (event.key === 'Enter') {
+          CalculateTotal();
+      }
+
+    }
+
+    // This function is used to calculate(onClick Button)
+
+    // function CalculateTotal () {
+    //  const inputElement =  document.querySelector('.js-cost-input');
+    //  let Cost = Number(inputElement.value);
+     
+    //  if (Cost < 40) {
+    //   Cost = Math.round(Cost + 10);
+    //  }
+
+    //  document.querySelector('.js-total-cost').innerHTML = `$${Cost}`;
+    // }
+
+    function CalculateTotal () {
+      const inputElement =  document.querySelector('.js-cost-input');
+
+      //convert the number to cents by * 100.
+      let Cost = Number(inputElement.value) * 100;
+      if (Cost < 4000) {
+      Cost = Cost + 1000;
+     }
+
+     //convert back to dollars at the end.
+
+     document.querySelector('.js-total-cost').innerHTML = `$${Cost / 100}`;
+
+
+    }
+
+
+
+
+
+    // First project its for subscribe
+
+    function Subscribe() {
+      const buttonElement = document.querySelector('.js-subscribe-button');
+
+      if (buttonElement.innerText === 'Subscribe') {
+      buttonElement.innerHTML = 'Subscribed';
+      } else {
+      buttonElement.innerHTML = 'Subscribe';
+}
+    }
+
+
+
+
+  </script> -->
+
+  <!-- //3rd project. -->
+
+  <input placeholder="Type Something" class="js-input" onkeyup="
+
+            const inputElement = document.querySelector('.js-input');
+              document.querySelector('.js-message')
+                .innerHTML = inputElement.value;
+  
+  ">
+  <p class="js-message"></p>
+
+  <script>
+
+
+  </script>
+</body>
+
+</html>
