@@ -3,6 +3,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e9cfcf;
   
 }
 
@@ -16,6 +25,7 @@
   height: 24px;
   margin-left: 24px;
   margin-right: 24px;
+  cursor: pointer;
 }
 
 .youtube-logo {
@@ -99,22 +109,40 @@
 
 .upload-icon {
   height: 24px;
+  cursor: pointer;
  
 }
 
 .youtube-app-icon {
   height: 24px;
+  cursor: pointer;
  
 }
 
 .notifications-icon {
   height: 24px;
- 
+  cursor: pointer;
+}
+.notifications-icon-container {
+  position: relative;
+}
+.notification-count {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  padding: 2px 5px;
+  border-radius: 10px;
+
 }
 
 .profile-icon {
   height: 32px;
   border-radius: 16px;
+  cursor: pointer;
   
 
 }
