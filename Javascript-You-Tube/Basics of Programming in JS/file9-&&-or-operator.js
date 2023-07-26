@@ -15,7 +15,7 @@
 // }else{
 //     console.log("inside else");
 // }
-let firstName = "arshit";
+let firstName = "Harshit";
 let age = 16;
 
 if(firstName[0] === "H" || age>18){
