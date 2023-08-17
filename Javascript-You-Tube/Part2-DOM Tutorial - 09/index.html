@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Website</title>
   <link rel="stylesheet" href="style.css">
-  <script src="file17-Intro to events.js" defer></script>
+  <script src="file29- Create Project using event delegation.js" defer></script>
 </head>
+
 <body>
   <header class="header">
     <nav class=" nav container">
@@ -17,7 +19,7 @@
         <li class="nav-item"><a href="">Sign Up</a></li>
       </ul>
     </nav>
-  
+
     <div class="headline">
       <h2 id="main-heading">Manage your tasks <span style="display: none">Hello</span></h2>
       <button class="btn btn-headline">Learn More</button>
@@ -26,12 +28,20 @@
 
   <section class="section-todo container">
     <h2>Your Plan for Today ? </h2>
+    
     <form class="form-todo">
       <input type="text" name="" id="" placeholder="Add Todo">
       <input type="submit" value="Add Todo" class="btn">
     </form>
+
     <ul class="todo-list">
-      <li>Todo 1</li>
+      <li>
+        <span class="text">Do this do that</span>
+        <div class="todo-buttons">
+          <button class="todo-btn done">Done</button>
+          <button class="todo-btn remove">Remove</button>
+        </div>
+      </li>
     </ul>
   </section>
 
@@ -70,9 +80,10 @@
       </div>
 
       <button type="submit" class="btn signup-btn">Submit</button>
-     
+
     </form>
   </section>
-  
+
 </body>
+
 </html>
