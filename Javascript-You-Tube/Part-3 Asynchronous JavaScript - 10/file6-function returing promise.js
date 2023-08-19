@@ -1,4 +1,4 @@
-// function returning promise
+// function returning promise = 135
 
 function ricePromise(){
   const bucket = ['coffee', 'chips','vegetables','salt','rice'];
